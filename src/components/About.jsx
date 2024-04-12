@@ -8,17 +8,25 @@ const About = () => {
         <div className="about-info">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About</h2>
 
-          <p className="pb-5">Bridge Creek Electric was founded in ___ by Josh Heinze.</p>
           <p className="pb-5">
-            I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and
-            many more.
+            Hello! I'm Josh, your local electrician here in Eau Claire. As a self-employed professional, I take great
+            pride in providing top-quality electrical services to my community. With ### years of experience in the
+            field, I bring expertise, reliability, and a commitment to safety to every job I undertake.
           </p>
-
-          <p>In backend I know Node.js, Express.js, MongoDB, and Mongoose</p>
-
-          <p>
-            In my spare time I create YouTube videos and write blogs on my Blog. Where I talk about programming theory
-            and build various projects.
+          <p className="pb-5">
+            Outside of work, I'm a dedicated father of two wonderful children. They inspire me to work hard and uphold
+            the highest standards in everything I do. Family is at the heart of everything I do, which is why I
+            understand the importance of having a safe and well-functioning electrical system in your home.
+          </p>
+          <p className="pb-5">
+            Whether you need a simple repair, an upgrade, or a complete electrical installation, you can count on me to
+            deliver exceptional service with a personal touch. I believe in honest communication, transparent pricing,
+            and always putting the needs of my customers first.
+          </p>
+          <p className="pb-5">
+            When you choose me as your electrician, you're not just getting a service provider – you're getting a
+            trusted partner who cares about your home and your family's safety. Thank you for considering me for your
+            electrical needs, and I look forward to serving you soon.
           </p>
         </div>
 

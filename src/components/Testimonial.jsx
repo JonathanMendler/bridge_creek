@@ -8,31 +8,26 @@ const Testimonials = () => {
   const testimonials = [
     {
       img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      name: "Ron L",
+      review:
+        " We have a 90 year old farmhouse and it desperately needed electrical upgrades.  Josh was so easy to work with and he communicated extremely well.  He is high character and extremely trustworthy.  We highly recommend him for any electrical work. ",
     },
     {
       img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
+      name: "Rachael G",
+      review:
+        "Josh installed AFCI's in our 1916 craftsman home which gave us a lot of peace of mind having some knob and tube still running various things in the house. Josh was really communicative throughout the process and transparent with pricing. He made time outside of his regular hours to get this sorted out for us so we could actually close on the house. He is definitely our go-to for any electrical needs!",
     },
     {
       img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
+      name: "Carrie A",
+      review: "Amazing kitchen reno",
     },
     {
       img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
-      live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      name: "Jonathan M",
+      review:
+        "I work from home & stream on Twitch, which requires a lot of equipment with power to match. I was concerned that the wiring in my house wouldn't be able to sustain it, so I sought out an electrician. Josh at Bridge Creek came out and was able to figure out how much power I would need and how we could achieve that without risking a house fire 😄 The next day he was back and installed a new circuit and outlets so I could get up and running. Great pricing and a pleasure to work with. I call him for all my home electrical needs now.",
     },
   ];
 
@@ -40,21 +35,19 @@ const Testimonials = () => {
     <section className="bg-primary text-white px-5 py-32" id="projects">
       <div className="container mx-auto grid md:grid-cols-2 items-center md:justify-between">
         <div className="about-info mb-5">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">Projects</h2>
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">Testimonials</h2>
 
-          <p className="pb-5">
-            These are some of my best projects. I have built these with React, MERN and vanilla CSS. Check them out.
-          </p>
+          <p className="pb-5">Here's what some of my previous clients have had to say about their experience.</p>
         </div>
 
         <div className="about-img"></div>
       </div>
 
-      <div className="projects container mx-auto grid md:grid-cols-3 gap-10">
+      <div className="testimonials container mx-auto grid md:grid-cols-3 gap-10">
         {testimonials.map((testimonial, i) => {
           return (
             <div className="relative" key={i}>
-              <img src={testimonial.img} alt={testimonial.title} />
+              <img src={testimonial.img} alt={testimonial.name} />
               <div className="flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%] h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100 ">
                 <p className="py-5 text-center font-bold px-2 text-white">{testimonial.desc}</p>
 
