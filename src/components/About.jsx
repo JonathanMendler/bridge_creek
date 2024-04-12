@@ -6,12 +6,9 @@ const About = () => {
     <section className="bg-secondary text-white px-5 py-32" id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
-          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About Me</h2>
+          <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-indigo-600 pb-2">About</h2>
 
-          <p className="pb-5">
-            Hi, My Name Is Rohima Akther everyone calls me Amrin. I am a Frontend Developer. I build beautifull websites
-            with React and Tailwind CSS.
-          </p>
+          <p className="pb-5">Bridge Creek Electric was founded in ___ by Josh Heinze.</p>
           <p className="pb-5">
             I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, SaSS, Css3 and
             many more.
