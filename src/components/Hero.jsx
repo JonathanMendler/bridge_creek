@@ -1,7 +1,7 @@
 import React from "react";
 import HeroImg from "../assets/DimRoom.png";
-
-import { AiOutlineTwitter, AiOutlineYoutube, AiOutlineFacebook } from "react-icons/ai";
+import { AiFillGoogleCircle } from "react-icons/ai";
+import { SiLinkedin, SiFacebook } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -15,15 +15,18 @@ const Hero = () => {
           <div className="flex py-5 ">
             <a href="https://twitter.com/CoderAmrin" className="pr-4 inline-block text-accent hover:text-white">
               {" "}
-              <AiOutlineTwitter size={40} />{" "}
+              <AiFillGoogleCircle size={44} />{" "}
             </a>
             <a href="https://www.youtube.com/@coderamrin" className="pr-4 inline-block text-accent hover:text-white">
               {" "}
-              <AiOutlineYoutube size={40} />{" "}
+              <SiLinkedin size={40} />{" "}
             </a>
-            <a href="https://www.facebook.com/CoderAmrin/" className="pr-4 inline-block text-accent hover:text-white">
+            <a
+              href="https://www.facebook.com/profile.php?id=100093478291576"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
               {" "}
-              <AiOutlineFacebook size={40} />{" "}
+              <SiFacebook size={40} />{" "}
             </a>
           </div>
 
