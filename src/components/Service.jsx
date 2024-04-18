@@ -4,21 +4,21 @@ const services = [
   {
     name: "New Construction",
     description:
-      "Building from the ground up? Let us get you set up with the latest in electrical panels, circuits, wiring, outlets, and switches.",
+      "Building from the ground up? Let us get you set up with the latest in electrical panels, circuits, wiring, outlets, and switches. Site security lighting for builders also available.",
     href: "#",
     icon: BoltIcon,
   },
   {
-    name: "Service Upgrades",
+    name: "Existing Structures (Remodels and Retrofits)",
     description:
-      "Modernize and improve your electrical system with upgraded amperage capacity, GFCI/AFCI circuits, and energy efficient outlets",
+      "Modernize and improve your electrical system with upgraded amperage capacity, GFCI/AFCI circuits, and energy efficient outlets. We are well-versed in interior and exterior remodels, redesigns of all shapes and sizes.",
     href: "#",
     icon: BoltIcon,
   },
   {
-    name: "Lighting Upgrades",
+    name: "Other Electrical Services",
     description:
-      "Improve efficiency, functionality, and aesthetic appeal with accent lighting, smart lighting, or an LED retrofit.",
+      "Improve efficiency, functionality, and aesthetic appeal with accent lighting, smart lighting, solar photovoltaic installation, or LED retrofit. Scheduled maintenance services are always an option!",
     href: "#",
     icon: BoltIcon,
   },
@@ -31,10 +31,10 @@ export default function Service() {
         <div className="mx-auto max-w-2xl lg:text-center ">
           <p className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">Services</p>
           <p className="mt-6 text-lg leading-8 text-white">
-            As an electrician specializing in residential and new construction services, I bring expertise and
-            dedication to every project. Whether you're crafting your dream home or embarking on a new construction
-            venture, I am here to ensure your electrical systems are safe, efficient, and perfectly tailored to your
-            needs.
+            As an electrician specializing in residential existing structures and new construction services, I bring
+            expertise and dedication to every project. Whether you are redesigning your dream home or building it from
+            the ground up, I am here to ensure your electrical systems are safe, efficient, and perfectly tailored to
+            your needs.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

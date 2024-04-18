@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/electrician.jpeg";
+import AboutImg from "../assets/Josh.jpeg";
 
 const About = () => {
   return (
@@ -14,8 +14,8 @@ const About = () => {
             field, I bring expertise, reliability, and a commitment to safety to every job I undertake.
           </p>
           <p className="pb-5">
-            Outside of work, I'm a dedicated father of two wonderful children. They inspire me to work hard and uphold
-            the highest standards in everything I do. Family is at the heart of everything I do, which is why I
+            Outside of work, I'm a dedicated husband and father of two amazing children. They inspire me to work hard
+            and uphold the highest standards in my practice. Family is at the heart of everything I do, which is why I
             understand the importance of having a safe and well-functioning electrical system in your home.
           </p>
           <p className="pb-5">
@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div className="about-img">
-          <img src={AboutImg} alt="coding illustration" className="lgw-[80%] md:ml-auto" />
+          <img src={AboutImg} alt="Josh Heinze" className="rounded-3xl lgw-[80%] md:ml-auto" />
         </div>
       </div>
     </section>
