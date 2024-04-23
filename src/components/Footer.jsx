@@ -3,7 +3,10 @@ import { AiOutlineTwitter, AiOutlineYoutube, AiOutlineFacebook } from "react-ico
 
 const Footer = () => {
   return (
-    <div className="py-2 text-center bg-primary text-white "> &copy; 2024 | Jonathan Mendler | All Rights Reserved</div>
+    <div className="py-2 text-sm text-center bg-primary text-white ">
+      {" "}
+      &copy; 2024 | Bridge Creek Electrical - All Rights Reserved | Website by Jonathan Mendler
+    </div>
   );
 };
 
