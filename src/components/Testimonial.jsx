@@ -1,30 +1,22 @@
 import React from "react";
-import cssProjects from "../assets/cssprojects.png";
-import devlog from "../assets/devlog.png";
-import getInspirred from "../assets/get-inspirred.png";
-import uilogs from "../assets/uilogs.png";
 
 const Testimonials = () => {
   const testimonials = [
     {
-      img: devlog,
       name: "Ron L",
       review:
         " We have a 90 year old farmhouse and it desperately needed electrical upgrades.  Josh was so easy to work with and he communicated extremely well.  He is high character and extremely trustworthy.  We highly recommend him for any electrical work. ",
     },
     {
-      img: uilogs,
       name: "Rachael G",
       review:
         "Josh installed AFCI's in our 1916 craftsman home which gave us a lot of peace of mind having some knob and tube still running various things in the house. Josh was really communicative throughout the process and transparent with pricing. He made time outside of his regular hours to get this sorted out for us so we could actually close on the house. He is definitely our go-to for any electrical needs!",
     },
     {
-      img: cssProjects,
       name: "Carrie A",
       review: "Amazing kitchen reno",
     },
     {
-      img: getInspirred,
       name: "Jonathan M",
       review:
         "I work from home & stream on Twitch, which requires a lot of equipment with power to match. I was concerned that the wiring in my house wouldn't be able to sustain it, so I sought out an electrician. Josh at Bridge Creek came out and was able to figure out how much power I would need and how we could achieve that without risking a house fire 😄 The next day he was back and installed a new circuit and outlets so I could get up and running. Great pricing and a pleasure to work with. I call him for all my home electrical needs now.",

@@ -10,8 +10,8 @@ const About = () => {
 
           <p className="pb-5">
             Hello! I'm Josh, your local electrician here in Eau Claire. As a self-employed professional, I take great
-            pride in providing top-quality electrical services to my community. With ### years of experience in the
-            field, I bring expertise, reliability, and a commitment to safety to every job I undertake.
+            pride in providing top-quality electrical services to my community. With 7 years of experience in the field,
+            I bring expertise, reliability, and a commitment to safety to every job I undertake.
           </p>
           <p className="pb-5">
             Outside of work, I'm a dedicated husband and father of two amazing children. They inspire me to work hard
