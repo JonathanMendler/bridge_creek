@@ -8,8 +8,8 @@ function Gallery() {
           <p className="text-4xl font-bold mb-5 border-b-[5px] w-[200px] mx-auto border-indigo-600 pb-2">Gallery</p>
           <p className="mt-6 text-lg leading-8 text-white mb-8">
             Welcome to the project gallery! Take a look at the photos to see the before-and-after of homes getting
-            powered up. You&#39ll see wires, switches, and outlets turning houses into cozy spaces. Whether it&#39s a
-            new project or one we&#39ve just wrapped up, each picture tells a story of hard work and dedication.
+            powered up. You'll see wires, switches, and outlets turning houses into cozy spaces. Whether it's a new
+            project or one we've just wrapped up, each picture tells a story of hard work and dedication.
           </p>
         </div>
       </div>
