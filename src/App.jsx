@@ -4,7 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Service from "./components/Service";
 import Gallery from "./components/Gallery";
-// import Testimonial from "./components/Testimonial";
+import Testimonial from "./components/Testimonial";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Service />
       <Gallery />
-      {/* <Testimonial /> */}
+      <Testimonial />
       <Contact />
       <Footer />
     </>
