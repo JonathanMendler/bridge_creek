@@ -49,7 +49,7 @@ const Header = () => {
       </nav>
 
       {/* Toggle button */}
-      <button onClick={handleToggle} className="block md:hidden">
+      <button onClick={handleToggle} className="block md:hidden cursor-pointer">
         {!toggle ? <AiOutlineMenu size={30} /> : <AiOutlineClose size={30} />}
       </button>
     </header>

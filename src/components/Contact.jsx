@@ -9,7 +9,10 @@ const Contact = () => {
         </h2>
         <p>Hours of Operation: Monday - Friday: 8am - 4:30pm</p>
         <p className="py-2">
-          <span className="font-bold">Email:</span> bridgecreekelectric@gmail.com
+          <span className="font-bold">Email:</span>{" "}
+          <a className="cursor-pointer" href="mailto:bridgecreekelectric@gmail.com">
+            bridgecreekelectric@gmail.com
+          </a>
         </p>
         <p className="py-2">
           <span className="font-bold">Phone:</span> (715) 456-4759
