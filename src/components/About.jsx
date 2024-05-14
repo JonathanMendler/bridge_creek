@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div className="about-img">
-          <img src={AboutImg} alt="Josh Heinze" className="rounded-3xl lgw-[80%] md:ml-auto" />
+          <img src={AboutImg} alt="Josh Heinze" className="rounded-3xl px-3 lgw-[80%] md:ml-auto" />
         </div>
       </div>
     </section>
