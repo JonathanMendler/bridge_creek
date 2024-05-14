@@ -10,7 +10,7 @@ const Contact = () => {
         <p>Hours of Operation: Monday - Friday: 8am - 4:30pm</p>
         <p className="py-2">
           <span className="font-bold">Email:</span>{" "}
-          <a className="cursor-pointer" href="mailto:bridgecreekelectric@gmail.com">
+          <a className="cursor-pointer underline" href="mailto:bridgecreekelectric@gmail.com">
             bridgecreekelectric@gmail.com
           </a>
         </p>

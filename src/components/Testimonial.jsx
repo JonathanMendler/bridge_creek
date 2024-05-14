@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "- Ron L.",
     review:
-      " We have a 90 year old farmhouse and it desperately needed electrical upgrades.  Josh was so easy to work with and he communicated extremely well.  He is high character and extremely trustworthy.  We highly recommend him for any electrical work. ",
+      "We have a 90 year old farmhouse and it desperately needed electrical upgrades.  Josh was so easy to work with and he communicated extremely well.  He is high character and extremely trustworthy.  We highly recommend him for any electrical work.",
   },
   {
     name: "- Rachael G.",
@@ -13,7 +13,8 @@ const testimonials = [
   },
   {
     name: "- Carrie A.",
-    review: "Amazing kitchen reno",
+    review:
+      "Bridge Creek recently installed 6 LED canned lights in my home with new switches, new wiring, as well as ceiling fans in two rooms. Josh did a fantastic job! Very impressed! I appreciated his consistent communication throughout the entire process and was very happy that my work was able to be completed within days of receiving the detailed quote! I will definitely use Bridge Creek Electric for all my future electrical work!",
   },
   {
     name: "- Jonathan M.",
@@ -35,7 +36,7 @@ export function Testimonials() {
           </p>
         </div>
         <div className="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
-          <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
+          <div className="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-2">
             {testimonials.map((testimonial) => (
               <div key={testimonial.name} className="pt-8 sm:inline-block sm:w-full sm:px-4">
                 <figure className="rounded-2xl bg-gray-50 p-8 text-sm leading-6">
