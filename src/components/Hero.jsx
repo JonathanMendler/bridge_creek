@@ -17,10 +17,6 @@ const Hero = () => {
               {" "}
               <AiFillGoogleCircle size={44} />{" "}
             </a>
-            <a href="https://www.youtube.com/@coderamrin" className="pr-4 inline-block text-accent hover:text-white">
-              {" "}
-              <SiLinkedin size={40} />{" "}
-            </a>
             <a
               href="https://www.facebook.com/profile.php?id=100093478291576"
               className="pr-4 inline-block text-accent hover:text-white"
@@ -31,7 +27,7 @@ const Hero = () => {
           </div>
 
           <a
-            href="/#projects"
+            href="/#testimonials"
             className=" btn bg-accent  border-2 border-[#7477FF] text-white rounded-lg px-6 py-3 hover:bg-transparent"
           >
             See Testimonials

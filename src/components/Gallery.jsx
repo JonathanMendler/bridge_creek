@@ -16,22 +16,22 @@ function Gallery() {
         </div>
       </div>
       <div className="columns-1 gap-5 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not(:first-child)]:mt-5 lg:[&>img:not(:first-child)]:mt-8">
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen_bones.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen_mid.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wall.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wall2.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/cabinet.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/cabinet_lit.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/lightbar.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wine_corner.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/bathroom.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/bones.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/interior.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/utility.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/barn.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/barn2.png" alt="" />
-        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/fusebox.png" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen_bones.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen_mid.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/carrie_kitchen.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wall.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wall2.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/cabinet.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/cabinet_lit.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/lightbar.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/wine_corner.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/bathroom.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/bones.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/interior.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/utility.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/barn.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/barn2.jpeg" alt="" />
+        <LazyLoadImage className="rounded-3xl" effect="blur" src="./images/fusebox.jpeg" alt="" />
       </div>
     </div>
   );
