@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,12 +10,10 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <a href="/" className="logo text-2xl font-bold text-accent">
-        BCE
-      </a>
+      <LazyLoadImage className="logo w-12 h-12" effect="blur" src="./public/bulb-006.svg" alt="" />
 
       {/* Desktop Nav */}
-      <nav className="hidden md:block">
+      <nav className="hidden md:block mt-2">
         <ul className="flex">
           <li>
             <a href="/#about">About</a>
