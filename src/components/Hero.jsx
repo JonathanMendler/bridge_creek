@@ -13,7 +13,10 @@ const Hero = () => {
           <p className="py-5">Eau Claire's choice for their electrical installs and services </p>
 
           <div className="flex py-5 ">
-            <a href="https://twitter.com/CoderAmrin" className="pr-4 inline-block text-accent hover:text-white">
+            <a
+              href="https://www.google.com/localservices/prolist?g2lbs=AOHF13nsjgmiwyRZhwVEGGRXnhcvYOEBuAGrtp8dtC2b_1Qu3gYhGuNdlPrhH3JecYBrYZ7Kies8k3TVRxCk3A2WeTKXBUPVzBO2IGdcp81_Tqn2CLOcsP0%3D&hl=en-US&gl=us&cs=1&ssta=1&q=bridge%20creek%20electric&oq=bridge%20creek%20electric&slp=MgBSAggCYAB64gFDaFZpY21sa1oyVWdZM0psWldzZ1pXeGxZM1J5YVdOYUZ5SVZZbkpwWkdkbElHTnlaV1ZySUdWc1pXTjBjbWxqZWdwRllYVWdRMnhoYVhKbGtnRUxaV3hsWTNSeWFXTnBZVzZxQVZrUUFTb1pJaFZpY21sa1oyVWdZM0psWldzZ1pXeGxZM1J5YVdNb0FESWZFQUVpR3ktNUoxb3NOdzl5SjNRTE8wOGtfY19oQUo4T1BNenNtMFl4UGpJWkVBSWlGV0p5YVdSblpTQmpjbVZsYXlCbGJHVmpkSEpwWS1BQkFBkgFYCg0vZy8xMXYzZ2J5MzQwCg0vZy8xMW43Zjlqd2gwCg0vZy8xMXZzODkyM2pqCgsvZy8xdnp2NDZ3OAoNL2cvMTFmbnlwY19oeQoNL2cvMTF2cjU3NHB6Yg%3D%3D&src=2&spp=Cg0vZy8xMXZzODkyM2pqOrQBV2hjaUZXSnlhV1JuWlNCamNtVmxheUJsYkdWamRISnBZNUlCQzJWc1pXTjBjbWxqYVdGdW1nRUFxZ0ZaRUFFcUdTSVZZbkpwWkdkbElHTnlaV1ZySUdWc1pXTjBjbWxqS0FBeUh4QUJJaHN2dVNkYUxEY1BjaWQwQ3p0UEpQM1A0UUNmRGp6TTdKdEdNVDR5R1JBQ0loVmljbWxrWjJVZ1kzSmxaV3NnWld4bFkzUnlhV009&lrlstt=1715803269482&ved=2ahUKEwjKvbyZuZCGAxXklIkEHXidDvAQvS56BAhAEAE&scp=ChBnY2lkOmVsZWN0cmljaWFuEjwSEgmz0RNQFb34hxF1k5ND64tDPSIORWF1IENsYWlyZSwgV0kqFA0D3q0aFVi9Z8kd-wXAGiUWZIrJMAEaFWJyaWRnZSBjcmVlayBlbGVjdHJpYyIVYnJpZGdlIGNyZWVrIGVsZWN0cmljKgtFbGVjdHJpY2lhbg%3D%3D"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
               {" "}
               <AiFillGoogleCircle size={44} />{" "}
             </a>
