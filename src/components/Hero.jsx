@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
 
           <a
-            href="/#testimonials"
+            href="/#testimonial"
             className=" btn bg-accent  border-2 border-[#7477FF] text-white rounded-lg px-6 py-3 hover:bg-transparent"
           >
             See Testimonials

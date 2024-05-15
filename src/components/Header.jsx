@@ -19,10 +19,13 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
-            <a href="/#services">Services</a>
+            <a href="/#service">Services</a>
           </li>
           <li>
-            <a href="/#testimonial">Testimonial</a>
+            <a href="/#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="/#testimonial">Testimonials</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
@@ -37,10 +40,13 @@ const Header = () => {
             <a href="/#about">About</a>
           </li>
           <li>
-            <a href="/#services">Services</a>
+            <a href="/#service">Services</a>
           </li>
           <li>
-            <a href="/#testimonials">Testimonials</a>
+            <a href="/#gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="/#testimonial">Testimonials</a>
           </li>
           <li>
             <a href="/#contact">Contact</a>
