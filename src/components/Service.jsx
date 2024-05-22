@@ -18,7 +18,7 @@ const services = [
   {
     name: "Other Electrical Services",
     description:
-      "Improve efficiency, functionality, and aesthetic appeal with accent lighting, smart lighting, solar photovoltaic installation, or LED retrofit. Scheduled maintenance services are always an option!",
+      "Improve efficiency, functionality, and aesthetic appeal with accent lighting, smart lighting, or LED retrofit. Scheduled maintenance services are always an option! In the near future we'll be equipped to help you reduce your energy bills with solar photovoltaic installation.",
     href: "#",
     icon: BoltIcon,
   },
