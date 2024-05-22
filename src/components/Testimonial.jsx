@@ -2,7 +2,7 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "- Ron L.",
+    name: "- Ron and Michelle L.",
     review:
       "We have a 90 year old farmhouse and it desperately needed electrical upgrades.  Josh was so easy to work with and he communicated extremely well.  He is high character and extremely trustworthy.  We highly recommend him for any electrical work.",
   },
@@ -10,6 +10,11 @@ const testimonials = [
     name: "- Rachael G.",
     review:
       "Josh installed AFCI's in our 1916 craftsman home which gave us a lot of peace of mind having some knob and tube still running various things in the house. Josh was really communicative throughout the process and transparent with pricing. He made time outside of his regular hours to get this sorted out for us so we could actually close on the house. He is definitely our go-to for any electrical needs!",
+  },
+  {
+    name: "- The Outpost - Northwoods Coffee & Gifts",
+    review:
+      "We are so thankful to have Bridge Creek do our electrical work at our new location!! We know the job is done right. Great Work!!",
   },
   {
     name: "- Carrie A.",
