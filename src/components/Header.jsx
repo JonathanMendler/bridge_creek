@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
-      <LazyLoadImage className="logo w-12 h-12" effect="blur" src="./assets/bulb-006.svg" alt="" />
+      <img className="logo w-12 h-12" src="../images/bulb-006.svg" alt="" />
 
       {/* Desktop Nav */}
       <nav className="hidden md:block mt-2">
